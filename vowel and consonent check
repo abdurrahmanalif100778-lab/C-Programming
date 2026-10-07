@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+   char letter;
+   scanf("%c",&letter);
+
+   if(letter=='a'|| letter=='e'|| letter=='i'|| letter=='o'|| letter=='u'|| ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U)
+   {
+    printf("Vowel letter");
+   }
+   else 
+   printf("Consonant letter");
+   return 0;
+}
