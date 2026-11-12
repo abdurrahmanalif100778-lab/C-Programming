@@ -1,0 +1,23 @@
+#include <stdio.h>
+int alif(int n);
+int main()
+{
+    int number,result;
+    printf("Enter the 1st number");
+    scanf("%d",&number);
+    
+   result=alif(number);
+   printf("factorial number =%d",result);
+    
+
+return 0;
+
+}
+int alif(int n)
+{
+if(n!=0){
+    return n*alif(n-1);
+}
+    else 
+    return 1;
+}
