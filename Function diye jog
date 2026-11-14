@@ -1,0 +1,17 @@
+#include <stdio.h>
+ int alif(int a);
+ int main(){
+    int a,b,sum=0,result;
+    scanf("%d %d",&a,&b);
+
+    sum=a+b;
+    result=alif(sum);
+    printf("%d",result);
+
+    return 0;
+}
+int alif(int a){
+    int sum=0;
+    sum=a;
+    return sum;
+}
