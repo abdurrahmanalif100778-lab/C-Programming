@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int alif[5],i,*pc;
+    printf("Enter the number ");
+
+    for(i=0;i<5;i++){
+        scanf("%d",&alif[i]);
+
+       
+    }
+    pc=&alif[1];
+
+    printf("value %d",*(pc+1));
+    return 0;
+}
