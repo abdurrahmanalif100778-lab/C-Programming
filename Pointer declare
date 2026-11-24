@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int x,*pc;
+    scanf("%d",&x);
+
+    printf("Value=%d\n",x);
+    printf("Address=%p\n",&x);
+
+    pc=&x;// address
+    printf("Value=%d\n",*pc);
+    printf("Address=%p\n",pc);
+
+    *pc=x;// for value 
+        printf("Value=%d\n",*pc);
+    printf("Address=%p\n",pc);
+
+
+    return 0;
+}
