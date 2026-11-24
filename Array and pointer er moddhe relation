@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int alif[5],i,sum=0;
+    printf("Enter the number");
+
+    for(i=0;i<5;i++){
+        scanf("%d",alif+i);
+
+        sum=sum+*(alif+i);
+    }
+    printf(" total sum =%d",sum);
+    return 0;
+}
