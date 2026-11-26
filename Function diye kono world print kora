@@ -1,0 +1,18 @@
+#include <stdio.h>
+void reverse();
+int main()
+{
+    printf("Enter A Sentence ");
+    reverse();
+    return 0;
+}
+void reverse(){
+    char alif;
+    scanf("%c",&alif);
+    if(alif!= '\n'){
+        printf("%c",alif);
+        reverse();
+        
+    }
+
+}
