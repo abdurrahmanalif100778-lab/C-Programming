@@ -1,0 +1,13 @@
+#include <stdio.h>
+union test{
+    int x,y;
+    char a;
+};
+
+int main()
+{
+    union test l1;
+    
+    printf("size of(test l1) %d",sizeof(l1));
+       return 0;
+}
