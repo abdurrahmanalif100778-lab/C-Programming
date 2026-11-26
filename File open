@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    FILE *alif;
+    alif = fopen("mim.ext","w");
+
+    if(alif==NULL){
+        printf("not fount");
+    }
+    else
+    printf("fount");
+    return 0;
+}
