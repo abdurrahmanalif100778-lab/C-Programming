@@ -1,0 +1,23 @@
+#include <stdio.h>
+struct Person{
+    
+    int age;
+    int salary;
+};
+int main()
+{
+    struct Person person[4];
+    int i;
+    for(i=0;i<4;i++){
+        printf("Enter the person information\n");
+        printf("Enter person age ");
+        scanf("%d",&person[i].age);
+        printf("Enter person salary ");
+        scanf("%d",&person[i].salary);
+    }
+   for(i=0;i<4;i++){
+        printf("Enter person age %d\n",person[i].age);
+        printf("Enter person salary  %d\n",person[i].salary);
+    }
+    return 0;
+    }
